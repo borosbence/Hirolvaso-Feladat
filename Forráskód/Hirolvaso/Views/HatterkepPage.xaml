@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hirolvaso.Views.HatterkepPage"
+             Title="Napi Háttérkép">
+    <Grid>
+        <Image Source="{Binding KepLink}" 
+               Aspect="AspectFill" />
+        <Label Text="{Binding Cim}"
+                TextColor="White"
+                BackgroundColor="Gray" Opacity="0.75"
+                HorizontalOptions="Start"
+                VerticalOptions="End"/>
+        <Label Text="{Binding SzerzoiJog}"
+                TextColor="White"
+                Background="Gray" Opacity="0.75"
+                HorizontalOptions="End"
+                VerticalOptions="End"/>
+    </Grid>
+</ContentPage>

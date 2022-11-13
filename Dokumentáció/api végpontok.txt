@@ -1,0 +1,15 @@
+háttérkép: 
+https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1
+https://github.com/TimothyYe/bing-wallpaper
+
+hírek:
+https://api.hvg.hu/blogservice/posts?limit=4
+
+árfolyam:
+https://telex.hu/api/exchangerate
+
+időjárás:
+https://telex.hu/api/weather/Budapest
+
+névnap:
+https://api.nevnapok.eu/
