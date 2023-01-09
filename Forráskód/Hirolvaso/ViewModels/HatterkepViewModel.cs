@@ -14,8 +14,7 @@ namespace Hirolvaso.ViewModels
         public HatterkepViewModel()
         {
             repository = new GenericAPIRepository<Hatterkep>(OldalTipus.Hatterkep);
-            Task.Run(async () =>
-                await LoadDataAsync()).Wait();
+            LoadDataAsync();
         }
 
         private string kepLink;
