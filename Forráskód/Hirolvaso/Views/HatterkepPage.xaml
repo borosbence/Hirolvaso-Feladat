@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Hirolvaso.ViewModels"
+             x:Class="Hirolvaso.Views.HatterkepPage"
+             Title="Háttérkép">
+    <ContentPage.BindingContext>
+        <vm:HatterkepViewModel/>
+    </ContentPage.BindingContext>
+    <Grid>
+        <Image Source="{Binding KepLink}" 
+               Aspect="AspectFill" />
+        <Label Text="{Binding SzerzoiJog}"
+                TextColor="White"
+                Background="Gray" Opacity="0.75"
+                HorizontalOptions="End"
+                VerticalOptions="End"/>
+    </Grid>
+</ContentPage>
